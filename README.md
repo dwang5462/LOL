@@ -8,4 +8,6 @@ of Legends and Riot Games are trademarks or registered trademarks of
 Riot Games, Inc. League of Legends © Riot Games, Inc.
 
 ## Contributors
+
+DGSGSGSGSGSS
 David Wang, Kevin Costello
