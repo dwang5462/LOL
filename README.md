@@ -1,4 +1,4 @@
-# LOL
+﻿# LOL
 League of Legends
 
 This application isn't endorsed by Riot 
@@ -8,4 +8,4 @@ of Legends and Riot Games are trademarks or registered trademarks of
 Riot Games, Inc. League of Legends © Riot Games, Inc.
 
 ## Contributors
-David Wang, Kevin Costello
+David Wang, Kevin "Calves" Costello
