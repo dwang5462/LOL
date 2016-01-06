@@ -3,22 +3,28 @@
 <head> 
     <script type="text/javascript" src="jquery-2.1.4.js"></script>
     <script type="text/javascript" src="LOL.js"></script>
-
-</head>
 <style>
-<!-- CSS goes inside here -->
+<!-- CSS goes inside here-->
+
+
 body {
     background-color: lightgrey;
 }
 
+#first {
+    width: 100px;
+    height: 50px;
+}
 </style>
+</head>
+
 <body>
     <h1> Hello, Wang </h1>
     <p1> Here's a paragraph </p1>
     <br> </br>
     <a href="http://www.facebook.com">Here's Facebook</a>
     <br> </br>
-    <button type="button">Wang's Button</button>
+    <button type="button" id="first" onclick="lastTenGames();">Wang's Button</button>
 
     <script>
         $(document).ready(function () {

@@ -6,7 +6,6 @@ var getChamps = function() {
 	           "&api_key=" + apiKey + "&botEnabled=false",
 	      success: function(data){        
 	         console.log(data);
-	         window.alert(data);
 	         idToChamp(data);
          },
          failure: function(data){
