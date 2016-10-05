@@ -1,4 +1,4 @@
-﻿# LOL
+# LOL
 League of Legends
 
 This application isn't endorsed by Riot Games

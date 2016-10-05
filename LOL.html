@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
     <!-- jQuery -->
     <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
     <!-- Private Keys -->
     <script type="text/javascript" src="private/apiKeys.js"></script>
+    <!-- Other js -->
     <script type="text/javascript" src="LOL.js"></script>
+    <title> League of Legends </title>
     <style>
         body {
             background-color: lightgrey;
         }
 
-        #lastTenBtn {
+        /* Buttons */
+        .btn {
             width: 100px;
             height: 50px;
         }
@@ -21,15 +24,15 @@
 <body>
     <header>
         <h1> League of Legends </h1>
-        <h2> Find out data on current games, or a summoner! </h2>
+        <h2> Find data on current games or a summoner! </h2>
     </header>
 
-    <button type="button" id="lastTenBtn" onclick="lastTenGames()">Example Button</button>
+    <button class="btn" onclick="lastTenGames()">Example Button</button>
 
     <script>
-        $(document).ready(getChamps()); 
+        $(document).ready(getChamps());
     </script>
 
 </body>
-    
+
 </html>
