@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- jQuery -->
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <!-- Private Keys -->
+    <script type="text/javascript" src="private/apiKeys.js"></script>
+    <!-- Other js -->
+    <script type="text/javascript" src="LOL.js"></script>
+    <title> League of Legends </title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        /* Buttons */
+        .btn {
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> League of Legends </h1>
+        <h2> Find data on current games or a summoner! </h2>
+    </header>
+
+    <button class="btn" onclick="lastTenGames()">Example Button</button>
+
+    <script>
+        $(document).ready(getChamps());
+    </script>
+
+</body>
+
+</html>
