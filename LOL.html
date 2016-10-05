@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <!-- Private Keys -->
+    <script type="text/javascript" src="private/apiKeys.js"></script>
     <script type="text/javascript" src="LOL.js"></script>
-<style>
-<!-- CSS goes inside here-->
+    <style>
+        body {
+            background-color: lightgrey;
+        }
 
-
-body {
-    background-color: lightgrey;
-}
-
-#first {
-    width: 100px;
-    height: 50px;
-}
-</style>
+        #lastTenBtn {
+            width: 100px;
+            height: 50px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Hello, Wang </h1>
-    <p1> Here's a paragraph </p1>
-    <br> </br>
-    <a href="http://www.facebook.com">Here's Facebook</a>
-    <br> </br>
-    <button type="button" id="first" onclick="lastTenGames();">Wang's Button</button>
+    <header>
+        <h1> League of Legends </h1>
+        <h2> Find out data on current games, or a summoner! </h2>
+    </header>
+
+    <button type="button" id="lastTenBtn" onclick="lastTenGames()">Example Button</button>
 
     <script>
-        $(document).ready(function () {
-            getChamps();
-            
-        });// End document.ready()
-
+        $(document).ready(getChamps()); 
     </script>
 
 </body>
